@@ -44,4 +44,7 @@ main() {
 /* String, Type Conversion, constant, null
 
 */
-main() {}
+main() {
+  var myName = "MG";
+  print('$myName');
+}
