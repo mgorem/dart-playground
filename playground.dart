@@ -43,9 +43,19 @@ main() {
 
 /* String, Type Conversion, constant, null
    Using parse method to convert a string into an integer
+   Converting integer to a string
+   Converting double to a string of fixed 2dp
 */
 main() {
   var myNumber = int.parse("3");
   assert(myNumber == 3);
   print('$myNumber');
+
+  String oneAsString = 1.toString();
+  assert(oneAsString == '1');
+  print('$oneAsString');
+
+  String piAsString = 3.14159.toStringAsFixed(2);
+  assert(piAsString == '3.14');
+  print('$piAsString');
 }
