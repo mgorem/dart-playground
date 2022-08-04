@@ -45,6 +45,8 @@ main() {
    Using parse method to convert a string into an integer
    Converting integer to a string
    Converting double to a string of fixed 2dp
+   Constants
+   Operators
 */
 main() {
   var myNumber = int.parse("3");
