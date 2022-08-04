@@ -42,9 +42,10 @@ main() {
 */
 
 /* String, Type Conversion, constant, null
-
+   Using parse method to convert a string into an integer
 */
 main() {
-  var myName = "MG";
-  print('$myName');
+  var myNumber = int.parse("3");
+  assert(myNumber == 3);
+  print('$myNumber');
 }
